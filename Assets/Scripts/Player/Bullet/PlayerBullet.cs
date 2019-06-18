@@ -13,6 +13,7 @@ public class PlayerBullet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        transform.position += new Vector3(0, 0, 2);
+        Debug.Log(Time.time);
     }
 }
